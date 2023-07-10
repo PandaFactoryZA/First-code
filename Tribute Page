@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Elon Musk</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main id="main">
+    <h1 id="title">Johnny Cash</h1>
+    <h3>A man that made country music and stood up for the little guy by standing up to the big guy.
+         He is a true music iconc and his music will be heard for generations</h3>
+         <div class="img-containter" id="img-div">
+         <img src="https://api.time.com/wp-content/uploads/2012/02/glast.jpg"
+         alt="johnny"
+         class="johnny-image"
+         id="image"
+         />
+         <div class="caption" id="img-caption">
+            Johnny Cash always looked like a real rock star with that classic old school look. 
+            Many people in his time would have similar hair styles.
+         </div>   
+        </div>
+        <div class="life">
+            <p class="life-header bold">
+                Here is a time line of Johnny Cash's life:
+            </p>
+            <ul id="tribute-info">
+               <li><span class="bold">1932 - </span>Born in Kingsland, Arkansas</li>
+               <li><span class="bold">1950 - </span>He enlisted in the Air Force. After basic training he was assinged to the 12th Radio Squadron Moble of the U.S Air Force Security Service</li>
+               <li><span class="bold">1955 - </span>He made his first recordings such as "Hey Porter" "Cry! Cry! Cry!"</li>
+               <li><span class="bold">1957 - </span>He recorded "Folsom Prison Blue"</li>
+               <li><span class="bold">1958 - </span>Cash left Phillips to sign a lucrative offer with Columbia Records. His single "Don't Take Your Guns to Town" became one of his biggest hits, and he recorded a collection of gospel songs for his second album for Columbia</li>
+               <li><span class="bold">1960 - </span>Cash toured with the Carter Family</li>
+               <li><span class="bold">1965 - </span>Cash's camper caught fire during a fishing trip with his nephew Damon Fielder in Los Padres National Forest in California, triggering a forest fire that burned several hundred acres and nearly caused his death</li>
+               <li><span class="bold">1967 - </span>Cash's duet with June Carter, "Jackson", won a Grammy Award</li>
+               <li><span class="bold">1968 - </span>Cash proposed onstage to June, at a concert at the London Gardens in London, Ontario, Canada</li>
+               <li><span class="bold">1970 - </span>Cash did not end all drug use until</li>
+               <li><span class="bold">1970 - </span>Cash had established his public image as the "Man in Black". He regularly performed in entirely black suits with a long, black, knee-length coat</li>
+               <li><span class="bold">1971 - </span>Cash starred in his own television show, The Johnny Cash Show, on the ABC network</li>
+               <li><span class="bold">1975 - </span>His first autobiography, Man in Black, was published</li>
+               <li><span class="bold">1977 - </span>Cash began using amphetamines again</li>
+               <li><span class="bold">1980 - </span>Cash became the Country Music Hall of Fame's youngest living inductee at age 48</li>
+               <li><span class="bold">1989 - </span>He was dependent and entered Nashville's Cumberland Heights Alcohol and Drug Treatment Center</li>
+               <li><span class="bold">1992 - </span>He started care at the Loma Linda Behavioral Medicine Center in Loma Linda, California, for his final rehabilitation treatment.</li>
+               <li><span class="bold">1997 - </span>Cash was diagnosed with the neurodegenerative disease Shy-Drager syndrome, a form of multiple system atrophy</li>
+               <li><span class="bold">2003 - </span>Died aged 71 in Nadhville, Tennessee</li>
+               <li><span class="bold">2005 - </span>A chronicle of country music legend Johnny Cash's life, from his early days on an Arkansas cotton farm to his rise to fame
+            </li>
+            </ul>  
+            <div class="quote-container">
+                <p class="quote">"People call me wild. Not really though, I'm not. I guess I've never been normal, not what you call Establishment. I'm country."
+                </p>
+                <p class="quote-author">-- Johnny Cash</p>
+            </div>  
+            <h3>
+                If you have time you should read more about him
+                <a id="tribute-link"
+                href="https://en.wikipedia.org/wiki/Johnny_Cash#Later_years_and_death"
+                target="_blank">
+            Wikipedia page</a>
+            </h3> 
+        </div>
+        </main>
+  </body>
+</html>

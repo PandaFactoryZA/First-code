@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>FCC Product Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+            <img src="https://as1.ftcdn.net/v2/jpg/05/55/81/30/1000_F_555813017_tkZsqWXYeLQULyBBNpAwjH7or9g6IEeB.jpg" 
+            alt="logo"
+            id="header-img">
+            <span class="the-product">Classic Books>
+            </span>
+            </div>
+            <ul class="nav-links">
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#audio" class="nav-link">Free Audio Book</a></li>
+            <li><a href="#for_sale" class="nav-link">For Sale</a></li>
+            </ul>
+      </nav>  
+    </header>
+
+    <section id="email-section">
+        <h2>Beautifully Written Masterpieces</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input 
+            id="email"
+            type="email" required placeholder="Enter your email address" name="email">
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+    </section>
+
+    <section id="features">
+       <div class="feature">
+        <i class="ri-file-paper-fill ri-4x icon"></i>
+        <div>
+            <h2>Premium Materials</h2>
+            <p>
+                Our Books use the best paper which is sourced locally. This will increase longevity of your purchase.
+            </p>
+        </div>
+       </div>
+       <div class="feature">
+       <i class="ri-truck-fill ri-4x icon"></i>
+        <div>
+            <h2>1 Day Shipping</h2>
+            <p>
+               You will receive your books in one day! We gaurantee that there will be no delays when the books are shipped from our stores to your door.
+            </p>
+        </div>
+       </div>
+       <div class="feature">
+       <i class="ri-book-open-line ri-4x icon"></i>
+        <div>
+            <h2>Quality books only</h2>
+            <p>
+                The books you will order are only the best on the market and you will find them exclusivley on our website.
+            </p>
+        </div>
+       </div> 
+    </section>
+
+    <section id="audio">
+    <iframe id="video" height="400" 
+             src="https://www.youtube.com/embed/YKAfKprBXQc" 
+             title="YouTube video player" 
+             frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+             allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="for_sale">
+            <h2>For Sale</h2>
+            <!--BOOK ONE-->
+            <div class="product-cards">
+                <div class="card">
+                    <div class="product-image product1"></div>
+                    <div class="inner-card">
+                    <div class="author">Dale Carnegie</div>
+
+                    <h1 class="header">How to Win Friends & Influence People</h1>
+
+                    <p class="content">
+                        Dale Carnegie's rock-solid, time-tested advice has helped countless people up the ladder of success in the persons life.
+                    </p>
+
+                    <div class="flex">
+                        <p class="main-price">$16.12</p>
+                        <p class="old-price">$19.29</p>
+
+                    </div>
+                    <button class="add">
+                        <p style="margin-left: 5px">Add to Cart</p>
+                    </button>
+                    </div>
+                </div>
+                <!--BOOK TWO-->
+                <div class="card"> 
+                <div class="product-image product2"></div>
+                <div class="inner-card">
+                <div class="author">Robert T Kiyosaki</div>
+
+                <h1 class="header">Rich Dad Poor Dad</h1>
+
+                <p class="content">
+                   This book is extremely inspiring and has gided thousands of people to success it will surely be a turn pager for you.
+                </p>
+
+                <div class="flex">
+                    <p class="main-price">$14.22</p>
+                    <p class="old-price">$18.22</p>
+
+                </div>
+                <button class="add">
+                    <p style="margin-left: 5px">Add to Cart</p>
+                </button>
+                </div>
+            </div>
+                <!--BOOK THREE-->
+                        <div class="card"> 
+                <div class="product-image product3"></div>
+                <div class="inner-card">
+                <div class="author">james Clear</div>
+
+                <h1 class="header">Atomic Habits</h1>
+
+                <p class="content">
+                   Get to building better habits that will change your life forever with this amazing book.
+                </p>
+
+                <div class="flex">
+                    <p class="main-price">$13.22</p>
+                    <p class="old-price">$18.29</p>
+                </div>
+                <button class="add">
+                    <p style="margin-left: 5px">Add to Cart</p>
+                </button>
+                </div>
+            </div>
+        </div>
+        </section>
+  </body>
+</html>
